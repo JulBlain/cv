@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 20px 0 20px 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#main {
+    padding: 1.2cm;
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.col {
+    height: 100%;
+    border-bottom: 5px solid black;
+}
+
+#col1 {
+    width: 60%;
+}
+#col2 {
+    width: 1%;
+}
+#col3 {
+    width: 39%;
+}
+
+#col2-1 {
+    height: 10%;
+}
+#col2-2   {
+    height: 7%;
+    background-color:#3AB3DB ;
+}
+
+#col2-3 {
+    height: 83%;
+    background-color: black;
+}
+
+
+#firstname {
+    height: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+#firstname p {
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+#lastname {
+    height: 7%;
+    display: flex;
+}
+
+#lastname p {
+    margin: auto;
+    padding: 0 20% 0 0;
+    text-transform: capitalize;
+    color: #3AB3DB;
+    font-size: 2rem;
+    font-
+
+}
+
+
+/*col3*/
+#contact {
+    height: 10%;
+    background-color: black;
+    color: #3AB3DB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+
+/*
+#firstname {
+    width: 59%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-right: 1%;
+}
+
+#firstname p {
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#contact {
+    height: 10%;
+    width: 40%;
+    background-color: black;
+    color: #3AB3DB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+#lastname {
+    width: 60%;
+    height: 7%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#lastname p {
+    font-size: 3rem;
+}
+#lastname div {
+    height: 100%;
+    width: 2%;
+    background-color: #3AB3DB;
+}
+
+
+
+
+
+
+
+
+
+#major {
+    height: 83%;
+    width: 60%;
+}
+
+*/
