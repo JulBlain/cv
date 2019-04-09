@@ -19,6 +19,15 @@ body {
     font-family: 'Rajdhani', sans-serif;
 }
 
+.title  {
+    font-family: 'Syncopate', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+
 #main {
     padding: 1.2cm;
     width: 21cm;
@@ -58,36 +67,55 @@ body {
     background-color: black;
 }
 
+/*col1*/
 
 #firstname {
     height: 10%;
     background-color: black;
     color: white;
     display: flex;
+    padding: 10px;
 }
 
-#firstname p {
+#firstname h1 {
     margin: auto;
-    text-align: center;
-    font-size: 4rem;
-    text-transform: uppercase;
+    font-size: 5.5rem;
+    line-height: 0.9;
+    text-transform: capitalize;
 }
 
 #lastname {
     height: 7%;
-    display: flex;
+    padding: 10px;
 }
 
-#lastname p {
-    margin: auto;
-    padding: 0 20% 0 0;
-    text-transform: capitalize;
+#lastname h2 {
+    width: 100%;
+    text-align: right;
     color: #3AB3DB;
-    font-size: 2rem;
-    font-
+    font-size: 3.5rem;
+    line-height: 0.9;
+    font-family: 'Syncopate', sans-serif;
+}
+
+#technoBox {
+    height: 83%;
+    background-color:rgba(204,204,204,0.5) ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#techno h3 {
+    text-align: right;
+    text-transform: uppercase;
 
 }
 
+h3 p {
+    text-align: right;
+}
 
 /*col3*/
 #contact {
@@ -96,9 +124,101 @@ body {
     color: #3AB3DB;
     display: flex;
     flex-direction: column;
-    padding-left: 4%;
+
     font-size: 0.9rem;
     justify-content: center;
+
+    padding: 10px;
+
+}
+
+#job {
+    padding: 10px;
+    color: #ABB3B6;
+    height: 7%;
+}
+
+#job h3 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+#techno {
+    display: flex;
+    flex-direction: column;
+}
+#techno h4 {
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    font-size: 0.7rem;
+}
+
+.box {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box>div {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.box i {
+    font-size: 27px;
+}
+.stars i {
+    font-size: 13px;
+}
+
+#jquery .stars {
+    margin-top: -8px;
+}
+#adobe .stars {
+    margin-top: 6px;
+}
+
+#other, #yearOther {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.7rem;
+}
+
+#other span, #yearOther span {
+    font-weight: bold;
+}
+
+#study h3 {
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.year {
+    display: flex;
+    font-size: 0.8rem;
+    margin: 10px 0;
+
+}
+
+.year i {
+    margin-top: -2px;
+    font-size: 25px;
+}
+.year span {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.year p {
+    padding-left: 10px;
 }
 
 
