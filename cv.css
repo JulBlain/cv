@@ -98,7 +98,7 @@ h1, h2, h3 {
     font-family: 'Syncopate', sans-serif;
 }
 
-#technoBox {
+#technoBox, #profilBox {
     height: 83%;
     background-color:rgba(204,204,204,0.5) ;
     padding: 10px;
@@ -154,7 +154,7 @@ h3 p {
     color: white;
     display: inline-block;
     text-align: left;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 10px;
     font-size: 0.7rem;
 }
 
@@ -184,13 +184,13 @@ h3 p {
     margin-top: 6px;
 }
 
-#other, #yearOther {
+#other, .yearOther {
     margin-top: 5px;
     font-style: italic;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
-#other span, #yearOther span {
+#other span, .yearOther span {
     font-weight: bold;
 }
 
@@ -202,7 +202,7 @@ h3 p {
 
 .year {
     display: flex;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin: 10px 0;
 
 }
@@ -214,13 +214,102 @@ h3 p {
 .year span {
     font-family: 'Syncopate', sans-serif;
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 .year p {
     padding-left: 10px;
 }
 
+#y2018 {
+    font-weight: 600;
+}
+
+#drive {
+    font-style: italic;
+}
+
+#capacity {
+    font-size: 0.7rem;
+}
+
+.diagBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph {
+     display: flex;
+    align-items: center;
+    width: 250px;
+
+}
+
+.graph1, .graph2{
+    height: 10px;
+}
+
+.graph1 {
+    background-color: #3AB3DB;
+}
+
+.graph2 {
+    background-color: rgba(58,179,219, 0.5);
+}
+
+#responsive .graph1 {
+    width: 90%;
+}
+
+#responsive .graph2 {
+    width: 10%;
+}
+
+#poo .graph1 {
+    width: 80%;
+}
+#poo .graph2 {
+    width: 20%;
+}
+
+#security .graph1 {
+    width: 70%;
+}
+#security .graph2 {
+    width: 30%;
+}
+
+#seo .graph1 {
+    width: 75%;
+}
+
+#seo .graph2 {
+    width: 25%;
+}
+
+#accessibility .graph1 {
+    width: 60%;
+}
+
+#accessibility .graph2 {
+    width: 40%;
+}
+
+#english .graph1 {
+    width: 65%;
+}
+#english .graph2 {
+    width: 35%;
+}
+
+/*profil*/
+#profilBox h5 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 0.8rem;
+    color: #3AB3DB;
+    text-transform: capitalize;
+
+}
 
 /*
 #firstname {
