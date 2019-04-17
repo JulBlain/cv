@@ -27,7 +27,9 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
-
+ul {
+    list-style: none;
+}
 #main {
     padding: 1.2cm;
     width: 21cm;
@@ -45,13 +47,13 @@ h1, h2, h3 {
 }
 
 #col1 {
-    width: 60%;
+    width: 65%;
 }
 #col2 {
     width: 1%;
 }
 #col3 {
-    width: 39%;
+    width: 34%;
 }
 
 #col2-1 {
@@ -104,7 +106,7 @@ h1, h2, h3 {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #techno h3 {
@@ -140,8 +142,8 @@ h3 p {
 
 #job h3 {
     text-transform: capitalize;
-    font-size: 1.2rem;
-    line-height: 2.2;
+    font-size: 1.1rem;
+    line-height: 2.5;
 }
 
 #techno {
@@ -159,7 +161,7 @@ h3 p {
 }
 
 .box {
-    padding: 15px 10px;
+    padding: 10px 10px 15px 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -185,7 +187,6 @@ h3 p {
 }
 
 #other, .yearOther {
-    margin-top: 5px;
     font-style: italic;
     font-size: 0.6rem;
 }
@@ -203,7 +204,7 @@ h3 p {
 .year {
     display: flex;
     font-size: 0.7rem;
-    margin: 10px 0;
+    margin: 7px 0;
 
 }
 
@@ -223,6 +224,7 @@ h3 p {
 
 #y2018 {
     font-weight: 600;
+    font-size: 0.8rem;
 }
 
 #drive {
@@ -231,11 +233,17 @@ h3 p {
 
 #capacity {
     font-size: 0.7rem;
+    padding-top: 15px;
+}
+
+#capacity h4 {
+    margin-bottom: 10px;
 }
 
 .diagBox {
     display: flex;
     justify-content: space-between;
+    padding: 1px 0;
 }
 
 .graph {
@@ -302,13 +310,20 @@ h3 p {
     width: 35%;
 }
 
+
+
 /*profil*/
 #profilBox h5 {
     font-family: 'Syncopate', sans-serif;
     font-size: 0.8rem;
     color: #3AB3DB;
     text-transform: capitalize;
+    padding-bottom: 10px;
+}
 
+#profil li {
+    padding: 5px 0;
+    font-size: 0.8rem;
 }
 
 /*job experiences*/
@@ -319,6 +334,12 @@ h3 p {
 #expeDev {
     font-size: 0.8rem;
 }
+
+#expeDev span {
+    font-weight: 600;
+}
+
+#ex
 
 .fa-calendar {
     margin-right: 5px;
@@ -331,6 +352,7 @@ h3 p {
 #expeCapacity li {
     display: flex;
     font-style: italic;
+    padding: 3px 0;
 
 }
 
@@ -346,4 +368,96 @@ h3 p {
 .fa-check {
     font-size: 0.5rem;
     padding-top: 5px;
+}
+
+/*hobby*/
+
+#hobby {
+    font-size: 0.7rem;
+}
+
+#hobbyBox {
+    display: flex;
+}
+
+#legend, #hobbyGraph {
+    width: 50%;
+}
+
+#legend li{
+    padding: 1px 0;
+}
+
+#legend .reddit {
+    color: #FE4A3B;
+}
+
+#hobbyGraph {
+    display: flex;
+    border-bottom: 2px solid #ABB3B6;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+
+.hobbyLi {
+    width: 10px;
+}
+
+#hobbyGraph .reddit {
+    background-color: #FE4A3B;
+    height: 75%;
+
+}
+#legend .com {
+    color: #49AB56;
+}
+
+#hobbyGraph .com {
+    background-color: #49AB56;
+    height: 70%;
+ }
+
+#legend .serie {
+    color: #F5B13D;
+}
+
+#hobbyGraph .serie {
+    background-color: #F5B13D;
+height: 90%;
+ }
+
+#legend .eat    {
+    color: #269CA9;
+}
+
+#hobbyGraph .eat {
+    height: 85%;
+    background-color: #269CA9;
+}
+
+#legend .fit {
+    color: #F5208D;
+}
+
+#hobbyGraph .fit {
+    background-color: #F5208D;
+    height: 65%;
+}
+
+#legend .sciences {
+    color: purple;
+}
+
+#hobbyGraph .sciences {
+    background-color: purple;
+    height: 73%;
+}
+
+/*design correction*/
+#tools .box {
+    padding: 10px ;
+}
+
+#profil {
+    padding-top: 7px;
 }
