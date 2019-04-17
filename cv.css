@@ -140,8 +140,8 @@ h3 p {
 
 #job h3 {
     text-transform: capitalize;
-    font-size: 1.5rem;
-    line-height: 1.8;
+    font-size: 1.2rem;
+    line-height: 2.2;
 }
 
 #techno {
@@ -311,62 +311,39 @@ h3 p {
 
 }
 
-/*
-#firstname {
-    width: 59%;
-    height: 10%;
-    background-color: black;
-    color: white;
+/*job experiences*/
+#expe{
+    font-size: 0.7rem;
+}
+
+#expeDev {
+    font-size: 0.8rem;
+}
+
+.fa-calendar {
+    margin-right: 5px;
+}
+
+#expe span {
+    font-weight: bold;
+}
+
+#expeCapacity li {
     display: flex;
-    margin-right: 1%;
+    font-style: italic;
+
 }
 
-#firstname p {
-    margin: auto;
-    text-align: center;
-    font-size: 4rem;
+#expeCapacity i {
+    margin-right: 5px;
 }
 
-#contact {
-    height: 10%;
-    width: 40%;
-    background-color: black;
-    color: #3AB3DB;
-    display: flex;
-    flex-direction: column;
-    padding-left: 2%;
-    font-size: 0.9rem;
-    justify-content: center;
+.expeLi {
+    padding: 7px 0;
+
 }
 
-#lastname {
-    width: 60%;
-    height: 7%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.fa-check {
+    font-size: 0.5rem;
+    padding-top: 5px;
 }
-
-#lastname p {
-    font-size: 3rem;
-}
-#lastname div {
-    height: 100%;
-    width: 2%;
-    background-color: #3AB3DB;
-}
-
-
-
-
-
-
-
-
-
-#major {
-    height: 83%;
-    width: 60%;
-}
-
-*/
