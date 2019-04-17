@@ -129,14 +129,14 @@ h3 p {
 
     font-size: 0.9rem;
     justify-content: center;
-
+    font-weight: bold;
     padding: 10px;
 
 }
 
 #job {
     padding: 10px;
-    color: #ABB3B6;
+    color: rgba(0,0 ,0, 0.7);
     height: 7%;
 }
 
@@ -418,11 +418,11 @@ h3 p {
  }
 
 #legend .serie {
-    color: #F5B13D;
+    color: #bf8322;
 }
 
 #hobbyGraph .serie {
-    background-color: #F5B13D;
+    background-color: #bf8322;
 height: 90%;
  }
 
